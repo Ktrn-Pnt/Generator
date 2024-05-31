@@ -1,0 +1,115 @@
+Test my generator:
+
+Eligible test for generator:
+-monobit
+-frequency_within_block
+-runs
+-longest_run_ones_in_a_block
+-dft
+-non_overlapping_template_matching
+-serial
+-approximate_entropy
+-cumulative sums
+-random_excursion
+-random_excursion_variant
+Test results for generator:
+- FAILED - score: 0.001 - Monobit - elapsed time: 0 ms
+- PASSED - score: 0.444 - Frequency Within Block - elapsed time: 0 ms
+- PASSED - score: 0.085 - Runs - elapsed time: 1 ms
+- PASSED - score: 0.043 - Longest Run Ones In A Block - elapsed time: 0 ms
+- FAILED - score: 0.0 - Discrete Fourier Transform - elapsed time: 0 ms
+- PASSED - score: 0.984 - Non Overlapping Template Matching - elapsed time: 3 ms
+- PASSED - score: 0.564 - Serial - elapsed time: 47 ms
+- PASSED - score: 0.011 - Approximate Entropy - elapsed time: 37 ms
+- FAILED - score: 0.002 - Cumulative Sums - elapsed time: 1 ms
+- FAILED - score: 0.172 - Random Excursion - elapsed time: 3 ms
+- FAILED - score: 0.196 - Random Excursion Variant - elapsed time: 0 ms
+
+====================================================
+
+Test Mersenne Twister:
+
+Eligible test for generator:
+-monobit
+-frequency_within_block
+-runs
+-longest_run_ones_in_a_block
+-dft
+-non_overlapping_template_matching
+-serial
+-approximate_entropy
+-cumulative sums
+-random_excursion
+-random_excursion_variant
+Test results for generator:
+- PASSED - score: 0.888 - Monobit - elapsed time: 0 ms
+- PASSED - score: 0.686 - Frequency Within Block - elapsed time: 0 ms
+- PASSED - score: 0.999 - Runs - elapsed time: 0 ms
+- PASSED - score: 0.303 - Longest Run Ones In A Block - elapsed time: 0 ms
+- PASSED - score: 0.023 - Discrete Fourier Transform - elapsed time: 0 ms
+- PASSED - score: 0.277 - Non Overlapping Template Matching - elapsed time: 1 ms
+- PASSED - score: 0.342 - Serial - elapsed time: 24 ms
+- PASSED - score: 0.944 - Approximate Entropy - elapsed time: 24 ms
+- PASSED - score: 0.891 - Cumulative Sums - elapsed time: 1 ms
+- FAILED - score: 0.096 - Random Excursion - elapsed time: 4 ms
+- PASSED - score: 0.367 - Random Excursion Variant - elapsed time: 0 ms
+
+====================================================
+
+Increase the number of numbers for tests
+
+====================================================
+
+Test my generator
+
+Eligible test for generator:
+-monobit
+-frequency_within_block
+-longest_run_ones_in_a_block
+-dft
+-non_overlapping_template_matching
+-serial
+-approximate_entropy
+-cumulative sums
+-random_excursion
+-random_excursion_variant
+Test results for generator:
+- FAILED - score: 0.0 - Monobit - elapsed time: 0 ms
+- FAILED - score: 0.0 - Frequency Within Block - elapsed time: 0 ms
+- FAILED - score: 0.0 - Longest Run Ones In A Block - elapsed time: 7 ms
+- FAILED - score: 0.0 - Discrete Fourier Transform - elapsed time: 0 ms
+- PASSED - score: 0.994 - Non Overlapping Template Matching - elapsed time: 14 ms
+- FAILED - score: 0.402 - Serial - elapsed time: 240 ms
+- FAILED - score: 0.0 - Approximate Entropy - elapsed time: 246 ms
+- FAILED - score: 0.0 - Cumulative Sums - elapsed time: 6 ms
+- FAILED - score: 0.172 - Random Excursion - elapsed time: 17 ms
+- FAILED - score: 0.196 - Random Excursion Variant - elapsed time: 1 ms
+
+====================================================
+
+Test Mersenne Twister:
+
+Eligible test for generator:
+-monobit
+-frequency_within_block
+-runs
+-longest_run_ones_in_a_block
+-dft
+-non_overlapping_template_matching
+-serial
+-approximate_entropy
+-cumulative sums
+-random_excursion
+-random_excursion_variant
+Test results for generator:
+- PASSED - score: 0.383 - Monobit - elapsed time: 0 ms
+- PASSED - score: 0.085 - Frequency Within Block - elapsed time: 0 ms
+- PASSED - score: 0.048 - Runs - elapsed time: 2 ms
+- PASSED - score: 0.878 - Longest Run Ones In A Block - elapsed time: 7 ms
+- PASSED - score: 0.608 - Discrete Fourier Transform - elapsed time: 0 ms
+- PASSED - score: 1.0 - Non Overlapping Template Matching - elapsed time: 13 ms
+- PASSED - score: 0.051 - Serial - elapsed time: 241 ms
+- PASSED - score: 0.161 - Approximate Entropy - elapsed time: 247 ms
+- PASSED - score: 0.221 - Cumulative Sums - elapsed time: 6 ms
+- FAILED - score: 0.018 - Random Excursion - elapsed time: 21 ms
+- PASSED - score: 0.386 - Random Excursion Variant - elapsed time: 0 ms
